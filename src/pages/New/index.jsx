@@ -38,7 +38,15 @@ export function New(){
               <MovieItem isNew placeholder="New Marker"/>
             </div>
           </Section>
-          <Button title="Save"/>
+          <div>
+            <Button 
+              title="Discard" 
+            />
+
+            <Button 
+              title="Save" 
+            />
+          </div>
 
         </Content>
       

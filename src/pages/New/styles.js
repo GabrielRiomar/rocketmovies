@@ -73,4 +73,13 @@ export const Content = styled.div`
 
     border-radius: 0.8rem;
   }
+
+  > div {
+    display: flex;
+    gap: 40px;
+    button:nth-child(1) {
+      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+      color: ${({ theme }) => theme.COLORS.PINK};
+    }
+  }
 `
