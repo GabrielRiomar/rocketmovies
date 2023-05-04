@@ -21,7 +21,7 @@ export function Home(){
           </header>
           <Link to="/note/1">
           <Movie data={{
-              title: 'Avatar: O Caminho da Água',
+              title: 'Interstellar',
               grade: '5',
               description: `Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se comunicar com ela. Pai e filha descobrem que o "fantasma" é uma inteligência desconhecida que está enviando mensagens codificadas através de radiação gravitacional, deixando coordenadas em binário que os levam até uma instalação secreta da NASA liderada pelo professor John Brand. O cientista revela que um buraco de minhoca foi aberto perto de Saturno e que ele leva a planetas que podem oferecer condições de sobrevivência para a espécie humana. As "missões Lázaro" enviadas anos antes identificaram três planetas potencialmente habitáveis orbitando o buraco negro Gargântua: Miller, Edmunds e Mann – nomeados em homenagem aos astronautas que os pesquisaram. Brand recruta Cooper para pilotar a nave espacial Endurance e recuperar os dados dos astronautas; se um dos planetas se mostrar habitável, a humanidade irá seguir para ele na instalação da NASA, que é na realidade uma enorme estação espacial. A partida de Cooper devasta Murphy.
               
@@ -35,8 +35,8 @@ export function Home(){
               </Link>
 
               <Movie data={{
-              title: 'Panico',
-              grade: '3',
+              title: 'Avatar: O Caminho da Água',
+              grade: '4',
               description: `Mais de uma década depois que os Na'vi repeliram a invasão humana de Pandora, Jake Sully vive como chefe do clã Omaticaya e cria uma família com Neytiri, que inclui os filhos Neteyam e Lo'ak, a filha Tuk e a filha adotiva Kiri. (nascido do avatar inerte de Grace Augustine), e um menino humano chamado Spider, filho do Coronel Miles Quaritch que nasceu em Pandora e não pôde ser transportado para a Terra em criostase devido à sua tenra idade. Para consternação dos Na'vi, os humanos retornam e erguem uma nova base operacional principal chamada Bridgehead City para preparar Pandora para a colonização, já que a Terra está morrendo. Entre os recém-chegados estão os recombinantes, avatares Na'vi implantados com as mentes e memórias de fuzileiros navais RDA falecidos, com o recombinante de Quaritch como seu líder.
 
               Jake inicia uma campanha de guerrilha contra as linhas de abastecimento RDA. Quaritch e seus recombinantes conduzem uma missão de contrainsurgência contra Jake, capturando seus filhos. Jake e Neytiri chegam e libertam a maioria deles, mas Spider é levado por Quaritch, que o reconhece como seu filho. Ele decide passar um tempo com ele para atrair Spider ao seu lado e, por sua vez, Spider ensina Quaritch sobre a cultura e a linguagem Na'vi. Ciente do perigo que o conhecimento de Spider sobre seu paradeiro representa para sua segurança, Jake e sua família se exilam de Omaticaya e se retiram para o clã do povo do recife Metkayina na costa leste de Pandora, onde recebem abrigo, embora alguns membros da tribo considerem que eles tenham "sangue de demônio" por sua herança genética humana. A família aprende os costumes do povo do recife, Kiri desenvolve um vínculo espiritual com o mar e suas criaturas, e Lo'ak torna-se amigo de Tsireya, filha do chefe do clã Tonowari e sua esposa Ronal.
