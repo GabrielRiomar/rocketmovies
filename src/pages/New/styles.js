@@ -15,11 +15,20 @@ export const Container = styled.div`
     overflow-y: scroll;
     padding: 6.4rem 0;
   }
+
+  > main::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+
+  > main::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.PINK};
+    border-radius: 0.8rem;
+  }
 `
 
 export const Content = styled.div`
-  max-width: 113rem;
-  margin: 0 auto;
+  max-width: 85rem;
+  margin: 0 0 0 12.3rem;
 
   display: flex;
   flex-direction: column;
@@ -31,7 +40,7 @@ export const Content = styled.div`
   > h1 {
     font-weight: 500;
     font-size: 3.6rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 4rem;
     padding-top: 2.4rem;
   }
 
@@ -47,5 +56,21 @@ export const Content = styled.div`
     justify-content: space-between;
     flex-wrap: nowrap;
     gap: 4rem;
+  }
+
+  .tags {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2.4rem;
+    padding: 1.6rem;
+
+    max-width: 100%;
+    height: 8.8rem;
+
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
+    border-radius: 0.8rem;
   }
 `

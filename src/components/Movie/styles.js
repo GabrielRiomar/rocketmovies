@@ -7,8 +7,8 @@ export const Container = styled.button`
   border: 0;
   border-radius: 1rem;
 
-  padding: 2.2rem;
-  margin-bottom: 1.6rem;
+  padding: 3.2rem;
+  margin-bottom: 2.4rem;
 
   > h1 {
     flex: 1;
@@ -18,11 +18,23 @@ export const Container = styled.button`
     font-size: 2.4rem;
 
     color: ${({ theme }) => theme.COLORS.WHITE};
+    margin-bottom: 0.8rem;
+  }
+
+  > p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: ${({ theme }) => theme.COLORS.GRAY_DARK};
+    margin-top: 1.5rem;
   }
 
   > footer {
     width: 100%;
     display: flex;
-    margin-top: 2.4rem;
+    margin-top: 1.5rem;
   }
 `

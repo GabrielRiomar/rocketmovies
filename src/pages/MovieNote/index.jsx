@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ButtonText } from "../../components/ButtonText";
 import { Header } from "../../components/Header";
 import { Rating } from "../../components/Rating";
@@ -13,9 +14,9 @@ export function MovieNote(){
 
       <main>
         <Content>
-
-          <ButtonText title ="Back"/>
-
+          <Link to="/">
+            <ButtonText title ="Back"/>
+          </Link>
           <div>
             <h1>Interstellar</h1>
             <Rating grade="4" isBigSize/>
@@ -41,7 +42,6 @@ export function MovieNote(){
           </p>
 
         </Content>
-
       </main>
 
     </Container>

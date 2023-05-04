@@ -3,23 +3,25 @@ import { Link } from 'react-router-dom'
 
 export const Container = styled.header`
   grid-area: header;
-  height: 11.5rem;
+  height: 11.6rem;
   width: 100%;
-  border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY_LIGHT};
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
   display: flex;
   justify-content: space-between;
+
+  padding: 0 12.3rem;
+  position: relative;
+`
+
+export const Brand = styled.div`
+  display: flex;
+  justify-content: center;
   align-items: center;
 
-  margin-bottom: 4.7rem;
-  padding: 0 12.3rem;
-
-  > h1 {
-    color: ${({ theme }) => theme.COLORS.PINK};
-    font-size: 2.4rem;
-    font-weight: 700;
-  }
+  color: ${({ theme }) => theme.COLORS.PINK};
+  font-size: 2.4rem;
+  font-weight: 700;
 `
 export const Profile = styled(Link)`
   display: flex;
@@ -34,8 +36,12 @@ export const Profile = styled(Link)`
   > div {
     display: flex;
     flex-direction: column;
-    margin-right: 1rem;
+    align-items: flex-end;
+    justify-content: center;
+
+    margin-right: 0.9rem;
     line-height: 1.8rem;
+    height: 4rem;
 
     a {
       font-size: 1.4rem;

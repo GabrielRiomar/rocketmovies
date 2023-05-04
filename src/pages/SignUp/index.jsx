@@ -13,8 +13,8 @@ export function SignUp(){
     <Container>
       <Background/>
       <Form>
-        <h1>Rocket Notes</h1>
-        <p>Application to manage and save useful links</p>
+        <h1>Rocket Movies</h1>
+        <p>Application to follow and save everything that you watched</p>
 
         <h2>Create Account</h2>
         

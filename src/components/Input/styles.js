@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
   color: ${({ theme }) => theme.COLORS.GRAY_DARK};
 
   margin-bottom: 0.8rem;
