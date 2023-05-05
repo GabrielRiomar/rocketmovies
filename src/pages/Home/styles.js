@@ -26,14 +26,14 @@ export const Container = styled.div`
     border-radius: 0.8rem;
   }
 
-  header {
+  > header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 3.8rem;
   }
 
-  h1 {
+  > h1 {
     font-weight: 400;
     font-size: 3.2rem;
     line-height: 4.2rem;
